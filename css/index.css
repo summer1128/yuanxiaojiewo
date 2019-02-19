@@ -1,0 +1,281 @@
+.swiper-container {
+    width: 320px;
+    height: 504px;
+}  
+.swiper-slide{
+	width: 100%;
+	height: 100%;
+}
+.bad-img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.bad-img img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.container{
+	width: 320px;
+	height: 504px;
+	position: relative;
+}
+.image-one{
+	width: 320px;
+	height: 650px;
+	left: 0px;
+	top: -73px;
+	position: absolute;
+}
+.image-two{
+	width: 306px;
+	height: 306px;
+	left: 6.80872px;
+	top: 175.325px;
+	position: absolute;
+}
+.box-one img{
+	position: absolute;
+    left: 0;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    outline: 1px solid transparent;
+}
+.box-one{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+	
+.img{
+	position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.image-three{
+	width: 202px;
+    height: 397px;
+    left: 57px;
+    top: 25px;
+    position: absolute;
+}
+.image-four{
+	width: 190px;
+    height: 190px;
+    left: 63px;
+    top: 83.2305px;
+    position: absolute;
+}
+.image-five{
+	width: 67px;
+    height: 63px;
+    left: 58px;
+    top: 275px;
+    position: absolute;
+}
+.image-six{
+	width: 67px;
+    height: 70px;
+    left: 58px;
+    top: 351px;
+    position: absolute;
+}
+.image-seven{
+    width: 67px;
+    height: 68px;
+    left: 189px;
+    top: 271px;
+    position: absolute;
+}
+.image-eight{
+	width: 62px;
+    height: 63px;
+    left: 191px;
+    top: 356px;
+    position: absolute;
+}
+.image-nine{
+	width: 61px;
+    height: 25px;
+    left: 47px;
+    top: 391px;
+    position: absolute;
+}
+.image-ten{
+	width: 83px;
+    height: 133px;
+    left: 227px;
+    top: 24px;
+    position: absolute;
+}
+.image-ele{
+	width: 42px;
+    height: 41px;
+    left: 31px;
+    top: 59px;
+    position: absolute;
+}
+.image-twl{
+	width: 212px;
+    height: 201px;
+    left: 48.2997px;
+    top: 229.866px;
+    position: absolute;
+}
+.image-tre{
+	width: 223px;
+    height: auto;
+    left: 49.8824px;
+    top: 431px;
+    position: absolute;
+    transform-origin: left top 0px;
+    transform: scale(1);
+}
+.box-one1{
+	opacity: 1;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgb(0, 0, 0);
+    color: rgb(191, 35, 54);
+    font-size: 16px;
+    font-family: normal;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    line-height: 18px;
+    letter-spacing: 0px;
+    border-radius: 0px;
+    background-color: transparent
+}
+.image-mul{
+	width: 259px;
+    height: 179px;
+    left: 30.5px;
+    top: 9.5rpx;
+    position: absolute;
+}
+.image-three1{
+	width: 61px;
+    height: 25px;
+    left: 254px;
+    top: 392px;
+    position: absolute;
+}
+.image-border{
+	height: 89px;
+    width: 132px;
+    left: 92px;
+    top: 68.4947px;
+    position: absolute;
+}
+.image-fo{
+	width: 110px;
+    height: auto;
+    left: 105px;
+    top: 78px;
+    position: absolute;
+    transform-origin: left top 0px;
+    transform: scale(1);
+}
+.image-fif{
+	width: 249px;
+    height: auto;
+    left: 33.5px;
+    top: 150.495px;
+    position: absolute;
+    transform-origin: left top 0px;
+    transform: scale(1);
+}
+.box-one2{
+	opacity: 1;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-family: normal;
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+    text-decoration: none;
+    line-height: 20px;
+    letter-spacing: 0px;
+    border-radius: 0px;
+    background-color: transparent;
+}
+.image-sth{
+	width: 215px;
+    height: 214px;
+    left: 56px;
+    top: 257.886px;
+    position: absolute;
+}
+.yidong{
+	position: absolute;
+    z-index: 10;
+    right: 0;
+    bottom: 10px;
+    left: 0;
+    width: 20px;
+    margin: 0 auto;
+	animation: webSwipeTipAfter 1.2s infinite ease-in-out;
+}
+@keyframes webSwipeTipAfter{
+	from{
+		bottom: 10px;
+		opacity: 1;
+	}
+	to{
+		bottom: 16px;
+		opacity: 0;
+	}
+}
+.music-box{
+	width: 30px;
+    height: 30px;
+    left: 276px;
+    top: 14px;
+    z-index: 2;
+    position: absolute;
+}
+.control{
+	background: url(https://oss3.rabbitpre.com/rp/renderer/music.c0fda016db.gif) transparent no-repeat 50%;
+    background-size: contain;
+	width: 100%;
+	height: 100%;
+}
+.control-after{
+	position: absolute;
+    background: url(https://oss3.rabbitpre.com/rp/renderer/music_off.8d94020a5c.png) transparent no-repeat 50%;
+    background-size: 100% 100%;
+    animation: rotate 1.2s linear infinite;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes rotate{
+	0%{
+		transform:rotate(0);
+	}
+	100%{
+		transform:rotate(360deg);
+	}
+}
+.bgmusic{
+	width: 100%;
+	height: 100%;
+}
+.bgmusic.stop .control-after{
+	animation: none;
+}
+.bgmusic.stop .control{
+	background: none;
+}
